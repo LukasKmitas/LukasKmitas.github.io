@@ -1,57 +1,186 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Lukas Kmitas</h1>
-        <p>Gane Developer/Programmer</p>
-    </header>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-				Ooga booga
-            </p>
-        </section>
-        <section id="cv">
-            <h2>CV / Links</h2>
-            <ul>
-                <li><a href="cv.pdf" target="_blank">Download CV (PDF)</a></li>
-                <li><a href="https://github.com/LukasKmitas" target="_blank">GitHub Profile</a></li>
-                <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn Profile</a></li>
-                <!-- Add more links as needed -->
-            </ul>
-        </section>
-    </div>
-</body>
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gill's & Glory</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Introduction</a></li>
+							<li><a href="#one">Project</a></li>
+							<li><a href="#two">Documents</a></li>
+							<li><a href="#three">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Project - Gill's & Glory</h1>
+							<p>This is my Final Year Project (FYP) it is a RTS type of game, expired from games such as "Command & Conquer"<br/>
+								Made by Lukas Kmitas.
+							</p>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Gameplay</h2>
+									<p>Just like any of the "Command & Conquer" games the gameplay is similar to it.</p>
+									<ul class="actions">
+										<li><a href="gamePlay.html" class="button">Learn more about gameplay</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Level Editor</h2>
+									<p>I have made a level editor so people can easily create new levels.</p>
+									<ul class="actions">
+										<li><a href="levelEditor.html" class="button">Learn more about level editor</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Neural Networks</h2>
+									<p>Showing my skills trying to add neural networks.</p>
+									<ul class="actions">
+										<li><a href="neuralNetwork.html" class="button">Learn more about neural networks</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Documents for the project</h2>
+							<p>There are 3 documents made for this project "Project report", "Technical Design Document" (TDD) and "Game Design Document" (GDD).</p>
+							<div class="features">
+								<section>
+									<h3>Project Report</h3>
+									<embed src="Documents/Project Report.pdf" type="application/pdf" width="1000" height="800"/>
+								</section>
+								<section>
+									<h3>TDD</h3>
+									<embed src="Documents/TDD.pdf" type="application/pdf" width="1000" height="800"/>
+								</section>
+								<section>
+									<h3>GDD</h3>
+									<embed src="Documents/GDD.pdf" type="application/pdf" width="1000" height="800"/>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>A little bit about myself.<br/>
+								Hi there! I'm Lukas, a gamer, movie enthusiast, and anime fan dreaming of a career in the game industry. 
+								Known for being easy-going, I'm all about blending my passions into creative projects. 
+							</p>
+							<div class="split style1">
+								<section>
+									<form method="POST" action="https://formspree.io/f/xeqylnnv">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="email" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><button type="submit" class="button">Send Message</button></li>
+										</ul>
+										<p>This uses formspree to send the message</p>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Name</h3>
+											<span>Lukas Kmitas</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a>lukaskmitas@hotmail.co.uk</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>(+353) 87 431 8179</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://www.facebook.com/lukas.kmitas.5" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="https://github.com/LukasKmitas" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/lukas-kmitas-690129180" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
