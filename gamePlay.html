@@ -34,26 +34,70 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">How does the game-play</h1>
-							<span class="image fit"><img src="images/gameplay_view1.png" alt="" /></span>
+							<span class="image fit"><img src="gifs/GG_Menu.gif" alt="Menu Overview" /></span>
 							<p><b>Beginning</b></p>
 							<p>The player starts off with 1 building (Headquarters), you can see only a small area which is only around your base this is called "Fog of war"
 								you either expand by adding buildings or make a unit to go explore it to see more of the map.
 								Left click on that building opens a GUI panel on the right side, from there you can select which building the player would like to select,
 								a ghost of that building shall appear on the mouse position. It would be either red or green which tells if the player is allowed to build.
 								To confirm the building placement you need to right click to place it down.</p>
-							<span class="image fit"><img src="images/gameplay_view2.png" alt="" /></span>
+							<span class="image fit"><img src="images/gameplay_view2.png" alt=" Building placement overview" /></span>
 							<p>The player can sell the building to gain money from the GUI panel except the main building (the one the player starts with). 
 								The currency is used for creating buildings and Units.<br/>
 								There are 4 building typs:<br/>
 								Refinery - This is how the player gets money it spawns a unit called Harvester after it finishes collecting it will bring back to Refinery building to deposit.<br/>
-								Barracks - This building spawns infantry soldiers, there are multple enititys in that 1 unit.
-								WarFactory - Can create vehicles such as tanks, buggys.
+								Barracks - This building spawns infantry soldiers, there are multple enititys in that 1 unit.<br/>
+								WarFactory - Can create vehicles such as tanks, buggys.<br/>
 								AirCraft - Can create air units such as helicopters.
 							</p>
-						</div>
-					</section>
+							<p><b>Units</b><br/>
+								There are 3 classes of units:<br/>
+								Infantry<br/>
+								Vehicles<br/>
+								Air
+							</p>
+							<p>RiflemanSquad - Infantry type, this unit can be created from Barracks building, it has multple entities,
+								it is cheap to create and it fires basic bullets, when the health goes down each enitity will die off.
+							</p>
+							<span class="image fit"><img src="images/riflemanSquad.png" style="width: 30%; height: auto;" alt="Rifleman Squad" /></span>
+							
+							<p>Harvester - Vehicle type, This unit can be created from the WarFactory building or it can spawn for free by making the refinery building,
+								this unit is not a combat type it will instead search for a discovered resource tile, it will go there and start harvesting,
+								after it finishes it, it will search for a refinery building if it exists and travel to it, when it gets there it will deposit its resources and the player gets currency. 
+							</p>
+							<span class="image fit"><img src="images/harvester.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
+							
+							<p>Buggy - Vehicle type, this unit is very good at scouting, its very fast and has a turret that shoots in all directions.</p>
+							<span class="image fit"><img src="images/buggy.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
 
-			</div>
+							<p>Tank Aurora - Vehicle type, this unit is a support/debuff unit, it has a healing aura that other units can regain health within distance,
+								for enemies it attacks by shooting a emp wave, it has 2 phases first the charge up, it charges eletricity at its front after fully charged it shoots a wave that gradually expands,
+								enemies that are hit starts to slow down until they stop and they cant move for few seconds. 
+							</p>
+							<span class="image fit"><img src="images/tankAurora.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
+							
+							<p>HammerHead - Air type, this unit has 2 guns on each side of its wing, it shoots in a wide area having poor accuracy but high damage in return.</p>
+							<span class="image fit"><img src="images/HammerHead.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
+
+							<p>FireHawk - Air type, this unit shoots 4 rockets it shoots in 2 phases the first 2 first immediately and the last 2 shortly after, it deals very high damage.</p>
+							<span class="image fit"><img src="images/fireHawk.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
+
+							<span class="image fit"><img src="gifs/GG_gameplay1.gif" style="width: 60%; height: auto;" alt=" Building placement overview" /></span>
+
+							<p><b>Enemy</b></p>
+							<p>The enemy creates either a building within its view or a unit every few seconds, it goes through 3 phases:<br/>
+								Exploring: The enemy sends its units to explore the map<br/>
+								Grouping: It will start to group some units making a small army<br/>
+								Attacking: As the name suggests the enemy will start to attack the player for a certain duration
+							</p>
+
+							<p><b>Victory Conditions</b><br/>
+								To win in this game you need to destroy all the enemy buildings and you lose if the player bases are destroyed.<br/>
+								After the game ends it will show you some stats how many unit/buildings both player and enemy has created and how long the match went for.
+							</p>
+							<span class="image fit"><img src="images/winLose.png" style="width: 30%; height: auto;" alt=" Building placement overview" /></span>
+
+						</div>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
